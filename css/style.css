@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)), url(../Mesh_Strang.jpg);
+	height: 100vh;
+	background-size: cover; 
+	background-position: center;
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px; 
+	
+}
+ul li{
+	display: inline-block;
+	justify-content: space-between;
+
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 36px;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;	
+}
+
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto; 
+
+}
+
+.center {
+	position: absolute;
+	border: 5px solid #34495E;
+	background-color: #fff;
+	top: 10vh;
+	right: 30vh;
+	width: 140vh;
+	height: 80vh;
+	bottom: 1vh;
+}
+
+.Top_center_text{
+	font-size: 18px;
+	position: absolute;	
+	top: 25px;
+	right: 10vh;
+	left: 40vh;
+	
+}
+
+.Middle_left_text{
+	font-size: 18px;
+	position: absolute;	
+	top: 300px;
+	left: 5vh;
+	
+}
+
+
+.Top_left_text{
+	font-size: 18px;
+	position: absolute;	
+	top: 25px;
+	left: 5vh;
+	
+	
+}
+
+.left_picture{
+	position: absolute;
+	left: 0vh;
+	top: 0vh;	
+}
+.tab {
+  text-indent: 50px;
+}
+
+.Large_Font{
+	font-size: 18px;
+}
+
+
+.Left_Bottom{
+	
+	position: absolute;
+	left: 0vh;
+	top: 50vh;
+	
+	
+}
+
+.middle_picture{
+	
+	position: absolute;
+	left: 45vh;
+	top: 50vh;
+	
+	
+}
+
+.right_picture{
+	
+	position: absolute;
+	right: 0vh;
+	top: 50vh;
+	
+	
+}
+
+
+
+
+.ex1 { 
+  Overflow-y:scroll;
+}
+
+
+.center_photos {
+	position: absolute;
+	border: 5px solid #34495E;
+	background-color: #fff;
+	top: 10vh;
+	right: 30vh;
+	width: 140vh;
+	height: 100vh;
+	bottom: 1vh;
+	Overflow-y:scroll;
+}
